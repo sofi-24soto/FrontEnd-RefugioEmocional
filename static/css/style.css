@@ -126,9 +126,9 @@ main h1 {
 }
 
 .main-header a {
-	text-decoration: none important!;
-	font-size: 12px important!;
-	font-weight: normal important!;
+	text-decoration: none !important;
+	font-size: 12px!important;
+	font-weight: normal!important;
 	
 }
 
