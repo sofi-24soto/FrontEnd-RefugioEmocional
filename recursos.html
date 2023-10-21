@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Refugio Emocional.:.Recursos</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<link rel="icon" href="./static/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./static/css/style.css" />
+	</head>
+	<body>
+		<!-- Navegacion -->
+		<header class="main-header">
+			<div class="logo">
+				<img src="./static/img/logo.png" alt="Logo" />
+			</div>
+			<div class="login-registrar">
+				<a href="login.html" class="login-button">Entrar</a>
+				<a href="register.html" class="registrar-button">Registrarse</a>
+			</div>
+		</header>
+		<nav class="main-nav">
+			<ul class="nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="acercade.html">Acerca de</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="recursos.html">Recursos</a></li>
+				<li><a href="testimonio.html">Testimonios</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section class="recursos-section">
+				<div class="title">
+					<h1>Tips para tu bienestar</h1>
+
+					<div class="consejo-container">
+						<p id="consejo">Cuanto más silencioso estés, más podrás oír.</p>
+						<button id="nuevo-consejo" class="btn">Nuevo Consejo</button>
+					</div>
+
+					<form id="sectionForm">
+						<label for="secciones">Selecciona una sección:</label>
+						<select id="secciones" name="seccion">
+							<option value="#ansiedad">Ansiedad</option>
+							<option value="#depresion">Depresión</option>
+							<option value="#estres">Estrés</option>
+							<option value="#panico">Pánico</option>
+						</select>
+						<input type="submit" value="Ir a sección" class="btn" />
+					</form>
+				</div>
+
+				<section id="ansiedad">
+					<h2>
+						<i class="fas fa-heart fa-lm" style="color: #81758a"></i> Sección de
+						Ansiedad
+					</h2>
+
+					<div class="image-grid">
+						<div class="image">
+							<img src="./static/img/recursos3.png" alt="Ansiedad" />
+						</div>
+						<div class="image">
+							<img src="./static/img/recursos1.png" alt="Ansiedad" />
+						</div>
+						<div class="image">
+							<img src="./static/img/recursos2.png" alt="Ansiedad" />
+						</div>
+						<div class="image">
+							<img src="./static/img/recursos4.png" alt="Ansiedad" />
+						</div>
+					</div>
+				</section>
+
+				<section id="estres">
+					<h2>
+						<i class="fas fa-heart fa-lm" style="color: #81758a"></i> Sección de
+						Estres
+					</h2>
+					<!-- Contenido sobre estres -->
+					<div class="image-grid">
+						<div>
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/iyo_eVyHKgY?si=HJM3xQSDaZdyOb14"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen
+							></iframe>
+						</div>
+						<div class="image">
+							<img src="./static/img/e1.png" alt="Estrés" />
+						</div>
+					</div>
+				</section>
+
+				<section id="depresion">
+					<h2>
+						<i class="fas fa-heart fa-lm" style="color: #81758a"></i> Sección de
+						Depresión
+					</h2>
+					<div class="image-grid">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/o7vOushCoTU?si=zYhJzM4tkwjFLDFB"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen
+						></iframe>
+
+						<div class="image">
+							<img src="./static/img/d1.jpg" alt="Depresión" />
+						</div>
+					</div>
+				</section>
+
+				<section id="panico">
+					<h2>
+						<i class="fas fa-heart fa-lm" style="color: #81758a"></i> Sección de
+						Pánico
+					</h2>
+					<div class="image-grid">
+						<div class="image">
+							<img src="./static/img/p1.png" alt="Panico" />
+						</div>
+						<div class="image">
+							<img src="./static/img/p2.png" alt="Panico" />
+						</div>
+						<div>
+							<video width="640" height="360" controls>
+								<source
+									src="./static/multimedia//rejalar.mp4"
+									type="video/mp4"
+								/>
+								Relajar
+							</video>
+						</div>
+						<div>
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/NG_RTAxcMLw?si=Pbe7I2-FzEgolIkl"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen
+							></iframe>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+		<!-- pie de pagina -->
+		<footer class="main-footer">
+			<div class="social-icons">
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div class="footer-text">
+				<p>Refugio Emocional &copy; 2023. Todos los derechos reservados.</p>
+			</div>
+		</footer>
+		<script src="./static/js/consejos.js"></script>
+		<script src="./static/js/enfermedades.js"></script>
+	</body>
+</html>
