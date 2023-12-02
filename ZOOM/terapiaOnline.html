@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
+        rel="icon"
+        href="../static/img/favicon.ico"
+        type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Refugio Emocional.:.Iniciar Sesión con Link</title>
+</head>
+<body>
+    <!-- Navegacion -->
+		<header class="main-header">
+			<div class="logo">
+				<img src="../static/img/logo.png" alt="Logo" />
+			</div>
+			<div class="login-registrar">
+				<a href="login.html" class="login-button">Entrar</a>
+				<a href="register.html" class="registrar-button">Registrarse</a>
+			</div>
+		</header>
+		<nav class="main-nav">
+			<ul class="nav-list">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../acercade.html">Acerca de</a></li>
+				<li><a href="../servicios.html">Servicios</a></li>
+				<li><a href="../recursos.html">Recursos</a></li>
+				<li><a href="../testimonio.html">Testimonios</a></li>
+				<li><a href="../contacto.html">Contacto</a></li>
+
+                <li><a href="terapiaOnline.html">Sesión Online</a></li>
+			</ul>
+		</nav>
+        
+        <main>
+            <div class="zoom">
+                <h1 class="animate__animated animate__bounce">Iniciar Sesión en Zoom</h1>
+                <br><br>
+                <form id="zoomForm" action="/iniciar_sesion" method="get" style="width: 80%;">
+                    <input 
+                        type="text" 
+                        name="link" 
+                        placeholder="Introducir el enlace" 
+                        style="width: 50%;"
+                        class="underlined-input"
+                    >
+                    <br><br>
+        
+                    <input type="submit" class="submit-button" value="Iniciar Sesión" onclick="return validateForm()">
+                </form>
+
+                <img src="../static/img/zoom.gif" alt="zoom" width="300px">
+            </div>
+        </main>
+    <script src="../static/js/validarFromZoom.js"></script>
+</body>
+</html>
